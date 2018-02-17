@@ -8,6 +8,7 @@
 ## The function "makeCacheMatrix" creates list of functions that pertain to
 ## a matrix. The list contains functions to 1) set matrix value 2) get matrix
 ## value 3) set matrix inverse 4) get matrix inverse. 
+
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
